@@ -10,6 +10,8 @@ header {
 main {
     top: 90px;
     width: 80%;
+    overflow: scroll;
+    height: calc(100% - 90px)
 }
 
 aside {
