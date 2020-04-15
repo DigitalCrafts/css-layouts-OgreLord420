@@ -1,13 +1,18 @@
 main {
+    display: block;
     float: left;
     width: 80%;
+    height: 850px;
 }
 
 aside {
+    display: block;
     float: right;
     width: 20%;
+    height: 850px;
 }
 
 .clearfix {
     clear: both;
 }
+
