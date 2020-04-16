@@ -1,18 +1,35 @@
-main {
-    display: block;
-    float: left;
-    width: 80%;
-    height: 850px;
+
+
+@media screen and (max-width: 600px) {
+    main {
+        float: left;
+        width: 80%;
+    }
+    
+    aside {
+        float: right;
+        width: 20%;
+    }
+    
+    .clearfix {
+        clear: both;
+    }
+    
 }
 
-aside {
-    display: block;
-    float: right;
-    width: 20%;
-    height: 850px;
-}
 
-.clearfix {
-    clear: both;
+@media screen and (min-width: 1000px) {
+    main {
+        float: left;
+        width: 80%;
+    }
+    
+    aside {
+        float: right;
+        width: 20%;
+    }
+    .clearfix {
+        clear: both;
+    }
 }
 
